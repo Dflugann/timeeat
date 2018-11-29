@@ -26,6 +26,16 @@
         <!-- Custom styles for this template -->
         <link href="{{ asset('css/creative.min.css') }}" rel="stylesheet">
 
+        <style type="text/css">
+            html {
+                background-attachment: fixed;
+                background-color: #fff;
+                background-image: url(../images/fundo.jpg);
+                background-repeat: repeat-x;
+                background-position: left top;
+            }
+        </style>
+
     </head>
 
     <body id="page-top">

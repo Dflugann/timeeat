@@ -24,7 +24,7 @@ class IndexController extends Controller
      */
     public function create()
     {
-        //
+        echo 'create';exit;
     }
 
     /**
@@ -82,4 +82,5 @@ class IndexController extends Controller
     {
         //
     }
+
 }
