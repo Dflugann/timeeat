@@ -200,8 +200,8 @@ header.masthead {
     background-color: #fff;
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url(../img/home-timeeat.jpg);
-    background-position: center center;
+    background-image: url(../img/background/lanches-saudaveis.png);
+    background-position: center inherit;
     background-size: cover
     background-repeat: repeat-x;
     /*background-position: left top;*/

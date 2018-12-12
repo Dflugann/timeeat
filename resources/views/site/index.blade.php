@@ -10,12 +10,14 @@
             <div class="row">
                 <div class="col-lg-10 mx-auto">
                     <h1 class="text-uppercase">
-                        <strong>ESTAMOS EM CONSTRUÇÃO</strong>
+                        <img src="{{ asset("/img/logo-timeeat.png") }}" alt="" class="imgresponsive" width="650px">
+                        <!--<strong>ESTAMOS EM CONSTRUÇÃO</strong>-->
                     </h1>
                     <hr>
                 </div>
                 <div class="col-lg-8 mx-auto">
-                    <p class="text-faded mb-5">Em breve estaremos inaugurando TimeEat - Onde o horário de trabalho fica mais agradavel com as delicias de TimeEat</p>
+                    <h2>Onde o horário de trabalho fica mais agradavel com as delicias de TimeEat</h2>
+                    {{--<p class="text-faded mb-5" style="font-size: 2.15rem">Onde o horário de trabalho fica mais agradavel com as delicias de TimeEat</p>--}}
                     <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Em Breve</a>
                 </div>
             </div>
