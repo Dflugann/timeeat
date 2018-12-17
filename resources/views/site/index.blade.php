@@ -9,23 +9,23 @@
         <div class="container my-auto">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h1 class="text-uppercase">
-                        <img src="{{ asset("/img/logo-timeeat.png") }}" alt="" class="imgresponsive" width="650px">
-                        <!--<strong>ESTAMOS EM CONSTRUÇÃO</strong>-->
+                    <h1 class="text-uppercase text-home">
+                        <!--<img src="{{ asset("/img/logo-timeeat.png") }}" alt="" class="imgresponsive" width="650px">-->
+                        <strong>Time Eat</strong>
                     </h1>
                     <hr>
                 </div>
-                <div class="col-lg-8 mx-auto">
+                <div class="col-lg-8 mx-auto text-home">
                     <h2>Onde o horário de trabalho fica mais agradavel com as delicias de TimeEat</h2>
                     {{--<p class="text-faded mb-5" style="font-size: 2.15rem">Onde o horário de trabalho fica mais agradavel com as delicias de TimeEat</p>--}}
-                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Em Breve</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Saiba Mais</a>
                 </div>
             </div>
         </div>
     </header>
 
 
-    <section class="bg-primary" id="about">
+    <section class="fundo-timeeat" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
@@ -183,7 +183,7 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Serviços</h2>
                     <hr class="my-4">
                   </div>
                 </div>
@@ -192,30 +192,34 @@
                 <div class="row">
                   <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box mt-5 mx-auto">
-                      <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
-                      <h3 class="mb-3">Sturdy Templates</h3>
-                      <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+                      <!--<i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>-->
+                      <img src="{{ asset('img/services/frutas-timeeat.jpg')}}" class="img-fluid img-services" alt="Frutas naturais" width="250px">
+                      <h3 class="mb-3">Frutas</h3>
+                      <p class="text-muted mb-0">Frutas da melhor qualidade, prontos para o consumo a qualquer hora do dia.</p>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box mt-5 mx-auto">
-                      <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
-                      <h3 class="mb-3">Ready to Ship</h3>
-                      <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+                      <!--<i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>-->
+                      <img src="{{ asset('img/services/sucos-timeeat.jpg')}}" class="img-fluid img-services" alt="Frutas naturais" width="250px">
+                      <h3 class="mb-3">Sucos</h3>
+                      <p class="text-muted mb-0">Sucos funcionais, práticos para o dia a dia com a qualidade timeeat.</p>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box mt-5 mx-auto">
-                      <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-                      <h3 class="mb-3">Up to Date</h3>
-                      <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+                      <!--<i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>-->
+                        <img src="{{ asset('img/services/lanches-timeeat.jpg')}}" class="img-fluid img-services" alt="Lanches naturais" width="250px">
+                      <h3 class="mb-3">Lanches</h3>
+                      <p class="text-muted mb-0">Além de contar com uma variedade de lanches, você vai saborear o melhor sabor do dia.</p>
                     </div>
                   </div>
                   <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box mt-5 mx-auto">
-                      <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
-                      <h3 class="mb-3">Made with Love</h3>
-                      <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+                      <!--<i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>-->
+                        <img src="{{ asset('img/services/balas-e-doces-timeeat.jpg')}}" class="img-fluid img-services" alt="Doces e balas" width="250px">
+                      <h3 class="mb-3">Doces</h3>
+                      <p class="text-muted mb-0">Tudo parece ser mais gostoso, com nossos doces variados timeeat.</p>
                     </div>
                   </div>
                 </div>
@@ -314,7 +318,8 @@
                         </div>
                       </div>
                     </a>
-                  </div>
+°   ─çç ,
+                  ];</div>
                 </div>
               </div>
             </section>
@@ -326,7 +331,7 @@
                   </div>
                 </section>
 
-                <section id="contact">
+                <section class="fundo-timeeat" id="contact">
                   <div class="container">
                     <div class="row">
                       <div class="col-lg-8 mx-auto text-center">
@@ -352,3 +357,26 @@
 
 
 @stop
+
+@section('style')
+    .masthead .row .text-home{
+        color: white;
+        text-shadow: -1px -1px white, 1px 1px #333
+    }
+
+    .img-services {
+    width: 250px;
+    height: 200px;
+    border-radius: 30% 30%;
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: center center;
+    }
+
+    .fundo-timeeat {
+      height: 550px;
+      overflow: hidden;
+      background: url('img/services/teste.png') top left #34130A;
+      box-shadow: inset 0 -6px 0 rgba(0,0,0,.26);
+}
+@stop    

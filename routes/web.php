@@ -13,7 +13,6 @@
 
 Route::resource('/', 'Site\IndexController');
 Route::get('/quem-somos', function (){
-
     return view('site.quem-somos');
 });
 
